@@ -61,7 +61,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 #ifdef OLED_ENABLE
 /*===========================================    OLED CONFIGURATION    ===========================================*/
-bool  oled_horizontal   = true;         // OLED rotation  (true = horizontal,  false = vertical)
+bool  oled_horizontal   = false;         // OLED rotation  (true = horizontal,  false = vertical)
 bool  ansi_layout       = true;         // ANSI or ISO layout  (true = ANSI,  false = ISO)
 bool  split_space       = true;         // Split spacebar  (true = split spacebar,  false = 6.25u or 7u spacebar)
 bool  three_mods_left   = true;         // Left mods layout  (true = 3x 1.25u keys,  false = 2x 1.5u keys)
